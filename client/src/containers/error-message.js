@@ -7,8 +7,8 @@ class ErrorMessage extends Component {
       return <div></div>
     }
     return (
-      <div>
-        Wrong password!
+      <div className="errorMessage">
+        Wrong login or password!
       </div>
     )
   }

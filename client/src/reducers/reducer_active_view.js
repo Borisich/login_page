@@ -1,6 +1,4 @@
 export default function (state = 'INITIAL_STATE', action) {
-  console.log('reducer_active_view:');
-  console.log(action.type);
   switch (action.type) {
     case 'PASSWORD_ACCEPTED':
       return action.payload;

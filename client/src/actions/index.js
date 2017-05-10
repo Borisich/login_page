@@ -1,7 +1,6 @@
-export function showLoginForm() {
-  //console.log('Login form showed');
+export function showForm() {
   return {
-    type: 'NO_ACTION',
+    type: 'INITIAL_STATE',
     payload: 'SHOW_FORM'
   }
 }
@@ -12,7 +11,6 @@ export function showError() {
   }
 }
 export function showSite() {
-  //console.log('site showed');
   return {
     type: 'PASSWORD_ACCEPTED',
     payload: 'SHOW_SITE'

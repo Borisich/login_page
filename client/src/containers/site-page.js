@@ -13,8 +13,8 @@ import { connect } from 'react-redux';
     }
 
     return (
-      <div>
-        Welcome to site page!
+      <div className="sitePage">
+        <h1>Welcome to site page!</h1>
       </div>
     )
   }
