@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 class ErrorMessage extends Component {
   render(){
     if (this.props.view != "SHOW_ERROR") {
-      return <div></div>
+      return null
     }
     return (
       <div className="errorMessage">

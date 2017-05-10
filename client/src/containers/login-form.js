@@ -61,7 +61,7 @@ class LoginForm extends Component {
   };
   render(){
     if (this.props.view == "SHOW_SITE") {
-      return <div></div>
+      return null
     }
     var img = <img className="loadingImg" src="./img/loading.gif" height='30px'/>
     return (

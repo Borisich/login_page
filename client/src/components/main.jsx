@@ -8,7 +8,6 @@ import { Provider } from 'react-redux';
 
 import store from '../store.js';
 
-
 class Main extends Component {
   render() {
     return (

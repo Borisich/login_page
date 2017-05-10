@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-
+import Site from '../components/site/site.jsx'
 
 
 
@@ -9,12 +9,12 @@ import { connect } from 'react-redux';
     console.log("site-page's this.props.view:");
     console.log(this.props.view);
     if (this.props.view != "SHOW_SITE") {
-      return <div></div>
+      return null
     }
 
     return (
       <div className="sitePage">
-        <h1>Welcome to site page!</h1>
+        <Site />
       </div>
     )
   }
